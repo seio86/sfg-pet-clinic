@@ -78,4 +78,9 @@
             </plugin>
         </plugins>
     </build>
+    <scm>
+        <developerConnection>
+            scm:git:git@github.com:seio-86/sfg-pet-clinic.git
+        </developerConnection>
+    </scm>
 </project>
