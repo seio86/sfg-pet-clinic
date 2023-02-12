@@ -145,6 +145,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals> install </goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
@@ -154,10 +155,10 @@
     </build>
     <scm>
         <developerConnection>
-            scm:https://github.com/seio86/sfg-pet-clinic.git
+            scm:git:git@github.com:seio-86/sfg-pet-clinic.git
         </developerConnection>
-<!--        <connection>scm:git:https://user:password@my.company.git.host.com/Project/project.git</connection>-->
-<!--        <developerConnection>scm:git:https://user:password@my.company.git.host.com/Project/project.git</developerConnection>-->
+<!--        <tag>sfg-pet-clinic-0.0.2-SNAPSHOT</tag>-->
+
 
     </scm>
 </project>
