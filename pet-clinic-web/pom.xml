@@ -154,7 +154,10 @@
     </build>
     <scm>
         <developerConnection>
-            scm:git:git@github.com:seio-86/sfg-pet-clinic.git
+            scm:https://github.com/seio86/sfg-pet-clinic.git
         </developerConnection>
+<!--        <connection>scm:git:https://user:password@my.company.git.host.com/Project/project.git</connection>-->
+<!--        <developerConnection>scm:git:https://user:password@my.company.git.host.com/Project/project.git</developerConnection>-->
+
     </scm>
 </project>
